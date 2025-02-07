@@ -1,1 +1,3 @@
-export const DB_NAME = "roxilersystem";
+const DB_NAME = "test"; 
+
+module.exports = DB_NAME;

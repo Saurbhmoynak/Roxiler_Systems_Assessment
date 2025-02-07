@@ -45,10 +45,10 @@ const TransactionTable = ({
                         {transaction.price}
                       </td>
                       <td className="text-sm text-gray-900 font-medium px-6 py-4 whitespace-normal break-words">
-                        {transaction.category}
+                        NA
                       </td>
                       <td className="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                        {transaction.sold}
+                        True
                       </td>
                       <td className="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                         Not Available

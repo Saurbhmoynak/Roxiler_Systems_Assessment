@@ -17,7 +17,7 @@ function App() {
   const getTransactions = async () => {
     try {
       const response = await axios.get(
-        `https://roxiler-assignment-backend.vercel.app/api/transactions`,
+        `http://localhost:3000/api/transactions`,
         {
           params: {
             month: selectMonth,

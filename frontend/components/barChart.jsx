@@ -57,7 +57,7 @@ const BarChart = ({ selectMonth }) => {
   }, [fetchBarChartData]);
 
   return (
-    <div className="m-5 w-lvh justify-center bg-[#edf7f7] rounded-xl">
+    <div className="m-5 w-full max-w-6xl mx-auto justify-center bg-[#edf7f7] rounded-xl">
       <h2 className="font-bold text-black text-4xl text-center m-5">
         Bar Chart Stats - {selectMonth}
       </h2>
