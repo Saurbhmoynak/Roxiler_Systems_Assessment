@@ -57,19 +57,25 @@ This project is a MERN stack-based assessment that involves creating backend API
    - Add the required variables:
      ```env
      MONGODB_URI=your_mongodb_connection_string
-     PORT=5000
+     PORT=3000
      ```
 
-4. Start the backend server:
+### Running the Backend
+1. Start the backend server:
    ```sh
-   npm run dev
-   ```
-
-5. Start the frontend application:
-   ```sh
-   cd client
    npm start
    ```
+2. The backend will run on:  
+   **http://localhost:3000**
+
+### Running the Frontend
+1. Start the frontend application:
+   ```sh
+   cd client
+   npm run dev
+   ```
+2. The frontend will run on:  
+   **http://localhost:5173/**
 
 ## API Endpoints
 ### 1. Initialize Database
